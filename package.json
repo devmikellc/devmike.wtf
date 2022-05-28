@@ -1,16 +1,16 @@
 {
   "private": false,
   "name": "portfolio",
-  "description": "Personal portfolio of Nirmalya Ghosh",
+  "description": "Personal portfolio of Michael E Adebisi",
   "license": "MIT",
-  "author": "Nirmalya Ghosh <nirmalya.email@gmail.com>",
+  "author": "Michael E Adebisi <devmike.wtf  || mikeadebis.com || hello@devmike.wtf>",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
     "prepare": "husky install",
     "release": "release-it",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "postbuild": "next-sitemap"
   },
   "dependencies": {

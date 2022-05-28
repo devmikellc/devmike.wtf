@@ -27,4 +27,9 @@ module.exports = withContentlayer({
       },
     ];
   },
+  
+ 
 });
+
+ const nextConfig = {};
+ module.exports  =  nextConfig;

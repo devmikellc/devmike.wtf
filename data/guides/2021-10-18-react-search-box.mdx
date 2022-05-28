@@ -2,24 +2,24 @@
 title: An auto-complete search box for React
 slug: react-search-box
 description: Use this auto-complete search box to add search functionality to your application.
-date: "2021-10-17T19:01:25.588Z"
-lastmod: "2022-01-22T16:52:39.297Z"
+date: '2021-10-17T19:01:25.588Z'
+lastmod: '2022-01-22T16:52:39.297Z'
 draft: false
 tags:
   - react.js
 categories:
   - ui-component
-coverImage: ""
-githubLink: ""
+coverImage: ''
+githubLink: ''
 keywords:
   - react.js
   - components
 ---
 
 <Jumbotron
-  description="An auto-complete search box for React"
-  githubLink="https://github.com/ghoshnirmalya/react-search-box"
-  demoLink="https://codesandbox.io/s/react-search-box-example-cra-17ml6"
+  description='An auto-complete search box for React'
+  githubLink='https://github.com/ghoshnirmalya/react-search-box'
+  demoLink='https://codesandbox.io/s/react-search-box-example-cra-17ml6'
 />
 
 ## Installation
@@ -37,38 +37,38 @@ yarn add react-search-box
 ## Usage
 
 ```js
-import React, { Component } from "react";
-import ReactSearchBox from "react-search-box";
+import React, { Component } from 'react';
+import ReactSearchBox from 'react-search-box';
 
 export default class App extends Component {
   data = [
     {
-      key: "john",
-      value: "John Doe",
+      key: 'john',
+      value: 'John Doe',
     },
     {
-      key: "jane",
-      value: "Jane Doe",
+      key: 'jane',
+      value: 'Jane Doe',
     },
     {
-      key: "mary",
-      value: "Mary Phillips",
+      key: 'mary',
+      value: 'Mary Phillips',
     },
     {
-      key: "robert",
-      value: "Robert",
+      key: 'robert',
+      value: 'Robert',
     },
     {
-      key: "karius",
-      value: "Karius",
+      key: 'karius',
+      value: 'Karius',
     },
   ];
 
   render() {
     return (
       <ReactSearchBox
-        placeholder="Placeholder"
-        value="Doe"
+        placeholder='Placeholder'
+        value='Doe'
         data={this.data}
         callback={(record) => console.log(record)}
       />
@@ -104,4 +104,4 @@ export default class App extends Component {
 
 ## License
 
-MIT Licensed. Copyright (c) Nirmalya Ghosh 2021.
+MIT Licensed. Copyright (c) Michael E Adebisi 2021.
